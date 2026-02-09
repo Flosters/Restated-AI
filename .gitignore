@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Node
+node_modules/
+.next/
+out/
+build/
+.vercel
+*.tsbuildinfo
+
+# Database
+*.db
+*.sqlite3
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE & Dev Tools
+.agent/
+.agents/
+.claude/
+.vscode/
+.idea/
+
+# Application specific
+app/static/uploads/*
+!app/static/uploads/.gitkeep
+test_export_*.pdf
+*.log
+working_model.txt
+BUG_FIXES_SUMMARY.md
+
+# Backup files
+*.backup
+
+# Debug & migration scripts
+tests/debug_models.py
+tests/list_models.py
+migrate_db.py
+
+# Test artifacts
+dummy_contract.pdf
+dummy_amendment.pdf
+debug_export.pdf
